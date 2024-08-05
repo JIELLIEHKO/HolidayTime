@@ -1,0 +1,45 @@
+.button {
+    font-family: "PT Sans", sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 1rem;
+    background-color: #202846;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.button-container {
+    border-right: 10px solid #fafafa;
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    .button.active {
+        background: #3e6ae1;
+        color: #fafafa;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .button:disabled {
+        cursor: not-allowed;
+    }
+}
+
+.button-container {
+    border: none;
+}
+
+.content-hero-button .button.active {
+    background: #A5BB4F;
+    color: #fafafa;
+}
+
+.content-hero-button.button:hover {
+    opacity: 0.8;
+}
+

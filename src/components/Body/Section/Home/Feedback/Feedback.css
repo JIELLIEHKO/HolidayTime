@@ -1,0 +1,54 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2EEEE;
+    color: #323236;
+
+    h2 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 47px;
+        color: #414141;
+        margin: 1rem 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        line-height: 39px;
+
+        input {
+            width: 400px;
+            height: 55px;
+            border: 2px solid #90A4AE ;
+            padding-left: 1rem;
+            font-size: 20px;
+        }
+
+        input, label {
+            margin: 0.5rem 2rem;
+        }
+    }
+
+    .button-container {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: 2rem;
+        text-transform: none;
+        font-size: 36px;
+        line-height: 47px;
+        font-weight: 400;
+        background-color: #444765;
+    }
+}
+
+
+
+
+
