@@ -1,78 +1,73 @@
 .container-cabinet {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .cabinet {
-    display: flex;
-    justify-content: space-between;
-    background-color: #BDBDC6;
-    color: #353C57;
-    margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: #bdbdc6;
+	color: #353c57;
+	margin-top: 2rem;
 }
 
 .container-avatar {
-    padding: 5rem 2rem 2rem 7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	padding: 5rem 2rem 2rem 7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container-avatar .button-container {
-    border-right: none;
-    margin-top: 2rem;
-
+	border-right: none;
+	margin-top: 2rem;
 }
 
 .container-avatar .button {
-    font-size: 24px;
-    text-transform: none;
-    padding: 0.7rem 2.5rem;
-    border-radius: 30px;
-    background-color: #69749B;
+	font-size: 24px;
+	text-transform: none;
+	padding: 0.7rem 2.5rem;
+	border-radius: 30px;
+	background-color: #69749b;
 }
 
 .container-avatar .setting {
-    background-color: #484A54;
+	background-color: #484a54;
 }
 
 .container-cabinet .button-container {
-    margin-top: 2rem;
-    border-right: none;
+	margin-top: 2rem;
+	border-right: none;
 }
 .container-cabinet .exit {
-    padding: 1rem 3rem;
-    border-radius: 30px;
-    text-transform: none;
+	padding: 1rem 3rem;
+	border-radius: 30px;
+	text-transform: none;
 }
 
 .container-info {
-    padding: 5rem 5rem 2rem 5rem;
+	padding: 5rem 5rem 2rem 5rem;
 }
 
 .cabinet strong {
-    font-style: italic;
-    font-weight: 700;
-    font-size: 36px;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 36px;
 }
 
 .cabinet p {
-    font-size: 34px;
-    border-bottom: 5px solid #ffffff;
-    padding: 1rem;
-
+	font-size: 34px;
+	border-bottom: 5px solid #ffffff;
+	padding: 1rem;
 }
 
 .cabinet strong:last-child {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .cabinet p:last-child {
-
-    border-bottom: none;
+	border-bottom: none;
 }
-
-

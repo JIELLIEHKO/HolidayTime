@@ -1,15 +1,12 @@
 footer {
-    color: #EEECF1;
-    background-color: #202846;
-    height: 90px;
-    padding-left: 4rem;
-    display: flex;
-    align-items: center;
-    font-style: italic;
-    font-size: 36px;
-    letter-spacing: 3px;
-    margin-top: 2rem;
+	color: #eeecf1;
+	background-color: #202846;
+	height: 90px;
+	padding-left: 4rem;
+	display: flex;
+	align-items: center;
+	font-style: italic;
+	font-size: 36px;
+	letter-spacing: 3px;
+	margin-top: 2rem;
 }
-
-
-

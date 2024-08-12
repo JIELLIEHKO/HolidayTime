@@ -1,42 +1,38 @@
 .change-city {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
 
-    .triangle-icon {
-        position: absolute;
-        top: 14.2%;
-        right: 11%;
-        font-size: 40px;
-        color: black;
-        z-index: 1;
-    }
+	.triangle-icon {
+		position: absolute;
+		top: 45px;
+		right: 11%;
+		font-size: 40px;
+		color: black;
+		z-index: 1;
+	}
 
-    .change-select {
-        width: 80%;
-        text-align: center;
-        margin: 2rem 0;
-        background: #E8E8E8;
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.61);
-        padding: 1rem 0;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
+	.change-select {
+		width: 80%;
+		text-align: center;
+		margin: 2rem 0;
+		background: #e8e8e8;
+		font-size: 28px;
+		color: rgba(0, 0, 0, 0.61);
+		padding: 1rem 0;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 
-        .change-select::-ms-expand {
-            display: none;
-        }
-    }
+		.change-select::-ms-expand {
+			display: none;
+		}
+	}
 
-    .cardsHouse-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
+	.cardsHouse-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
-
-
-
-

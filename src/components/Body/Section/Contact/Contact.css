@@ -1,37 +1,35 @@
 .section-contacts {
-
 }
 
 .container-contacts-card {
-    width: 70%;
-    margin: 0 auto;
-    color: #000000;
-
+	width: 70%;
+	margin: 0 auto;
+	color: #000000;
 }
 
 .contacts {
-    display: flex;
-    margin-top: 5rem;
-    justify-content: space-between;
+	display: flex;
+	margin-top: 5rem;
+	justify-content: space-between;
 }
 
 .contacts-card {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 .contacts-card h4 {
-    font-weight: 400;
-    font-size: 32px;
-    border-bottom: 2px solid #000000;
-    margin-bottom: 1rem;
+	font-weight: 400;
+	font-size: 32px;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 1rem;
 }
 
-.contacts-card  p, pre {
-    font-size: 30px;
+.contacts-card p,
+pre {
+	font-size: 30px;
 }
-
